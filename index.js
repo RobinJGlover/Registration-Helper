@@ -38,7 +38,7 @@ function end_of_decision_tree(with_result) {
 
 function reset() {
     result = new Question(
-        "Is is a FASP or EUROCAT case?",
+        "Is it a FASP or EUROCAT case?",
         [
             new Decision("FASP", () => q_fasp_anomaly_diagnosed),
             new Decision("EUROCAT", () => {
