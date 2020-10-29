@@ -7,6 +7,8 @@ let needs = {
 let q_disp_holder, result;
 
 window.onload = () => {
+    _select('main-con').style.display = "block";
+    _select('loadingscreen').style.display = "none";
     q_disp_holder = _select('q-disp-holder');
     reset();
 }
